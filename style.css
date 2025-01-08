@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin: 15px;
+}
+h2{
+    text-align: center;
+    margin: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.gamecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
+    width: 600px;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    /* color: white; */
+    border: 5px solid black;
+    border-radius: 10%;
+    margin: 10px;
+}
+.pink{
+    background-color: pink;
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}
